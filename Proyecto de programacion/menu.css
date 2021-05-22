@@ -1,0 +1,63 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: gray;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+nav{
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-family: 'Fredoka One', cursive;
+    font-size: 16px;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: orange;
+}
+.contenido{
+    padding-top: 80px;
+}
+p{
+    margin-bottom: 20px;
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+}
+h1{
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+a{
+    font-family: 'Nerko One', cursive;
+    font-size: 20;
+}
+img:hover{
+    border: 8px solid red;
+}
+li{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 30;
+}
+form{
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+}

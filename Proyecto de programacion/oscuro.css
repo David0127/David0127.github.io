@@ -1,0 +1,33 @@
+body{
+    --color-bg:white;
+    --color-texto: black;
+}
+body.modo-oscuro{
+    --color-bg:black;
+    --color-texto: white; 
+}
+@media (prefers-color-scheme: dark) {
+    body{
+        --color-bg:black;
+        --color-texto: white; 
+    }
+    body.modo-claro{
+        --color-bg:white;
+        --color-texto: black;
+    }
+}
+body{
+    background-color:var(--color-bg) ;
+}
+table, p, h1{
+    color: var(--color-texto)
+}
+button{
+    background: orange;
+    padding: 10px;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 15px;
+}
+button:hover{
+    background: #FCB682;
+}
